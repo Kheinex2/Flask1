@@ -1,0 +1,15 @@
+{
+  "build": {
+    "language": "python",
+    "command": "python app.py",
+    "path": "/",
+    "environment_variables": {
+      "REDIS_HOST": "localhost",
+      "REDIS_PORT": "6379",
+      "REDIS_PASSWORD": ""
+    }
+  },
+  "run": {
+    "port": 8080
+  }
+}
